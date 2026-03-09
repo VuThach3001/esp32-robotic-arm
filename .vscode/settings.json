@@ -1,0 +1,11 @@
+{
+    "idf.currentSetup": "E:/ESP-IDF/Espressif/frameworks/esp-idf-v5.5.2/",
+    "idf.portWin": "COM15",
+    "idf.openOcdConfigs": [
+        "board/esp32-wrover-kit-3.3v.cfg"
+    ],
+    "idf.customExtraVars": {
+        "IDF_TARGET": "esp32"
+    },
+    "idf.flashType": "UART"
+}
