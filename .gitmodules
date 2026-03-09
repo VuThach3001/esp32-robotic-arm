@@ -1,0 +1,3 @@
+[submodule "software-architecture"]
+	path = software-architecture
+	url = https://github.com/VuThach3001/software-architecture.git
