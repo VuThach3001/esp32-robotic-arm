@@ -7,5 +7,13 @@
     "idf.customExtraVars": {
         "IDF_TARGET": "esp32"
     },
-    "idf.flashType": "UART"
+    "idf.flashType": "UART",
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "other": "on",
+            "comments": "off",
+            "strings": "off"
+        },
+        "editor.snippetSuggestions": "top"
+    }
 }
