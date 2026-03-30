@@ -1,25 +1,18 @@
 {
-    "idf.currentSetup": "/home/dave301/.espressif/v6.0/esp-idf",
-    "idf.portWin": "COM15",
-    "idf.openOcdConfigs": [
-        "board/esp32s3-builtin.cfg"
-    ],
-    "idf.customExtraVars": {
-        "IDF_TARGET": "esp32s3"
-    },
-    "idf.flashType": "UART",
-    "[markdown]": {
-        "editor.quickSuggestions": {
-            "other": "on",
-            "comments": "off",
-            "strings": "off"
-        },
-        "editor.snippetSuggestions": "top"
-    },
-    "files.associations": {
-        "*.arxml": "xml",
-        "i2c.h": "c",
-        "i2c_types.h": "c"
-    },
-    "idf.port": "/dev/ttyACM0"
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.port": "/dev/ttyACM0",
+  "idf.currentSetup": "/home/dave301/.espressif/v6.0/esp-idf",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "/home/dave301/.espressif/tools/esp-clang/esp-20.1.1_20250829/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=/home/dave301/Desktop/workspace/i2c_oled/build"
+  ],
+  "idf.flashType": "UART"
 }
