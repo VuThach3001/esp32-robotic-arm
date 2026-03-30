@@ -1,11 +1,11 @@
 {
-    "idf.currentSetup": "E:/ESP-IDF/Espressif/frameworks/esp-idf-v5.5.2/",
+    "idf.currentSetup": "/home/dave301/.espressif/v6.0/esp-idf",
     "idf.portWin": "COM15",
     "idf.openOcdConfigs": [
-        "board/esp32-wrover-kit-3.3v.cfg"
+        "board/esp32s3-builtin.cfg"
     ],
     "idf.customExtraVars": {
-        "IDF_TARGET": "esp32"
+        "IDF_TARGET": "esp32s3"
     },
     "idf.flashType": "UART",
     "[markdown]": {
@@ -20,5 +20,6 @@
         "*.arxml": "xml",
         "i2c.h": "c",
         "i2c_types.h": "c"
-    }
+    },
+    "idf.port": "/dev/ttyACM0"
 }
