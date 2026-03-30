@@ -15,5 +15,10 @@
             "strings": "off"
         },
         "editor.snippetSuggestions": "top"
+    },
+    "files.associations": {
+        "*.arxml": "xml",
+        "i2c.h": "c",
+        "i2c_types.h": "c"
     }
 }
