@@ -13,7 +13,8 @@
         "${workspaceFolder}/software-architecture/common/CUCEL/standard",
         "${workspaceFolder}/software-architecture/common/CUCEL/compiler",
         "${workspaceFolder}/software-architecture/common/CUCEL/platform",
-        "${workspaceFolder}/software-architecture/src/**"
+        "${workspaceFolder}/software-architecture/src/**",
+        "${workspaceFolder}/GConf"
       ],
       "browse": {
         "path": [

@@ -19,7 +19,7 @@
 
 /* Local system constant for CPU vendor */
 #ifndef CPUVENDOR_SC
-#define CPUVENDOR_SC CPUVENDOR_SC_STM32
+#define CPUVENDOR_SC CPUVENDOR_SC_ESP32
 #endif
 /* Public enumerate/structure ----------------------------------------- */
 /* Public macros ------------------------------------------------------ */

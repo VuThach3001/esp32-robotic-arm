@@ -10,4 +10,5 @@ idf_component_register(
         "../software-architecture/common/CUCEL/standard"
         "../software-architecture/common/CUCEL/compiler"
         "../software-architecture/common/CUCEL/platform"
+        "../GConf"
 )
