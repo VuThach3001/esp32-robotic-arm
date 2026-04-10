@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "name": "ESP32-S3",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/home/dave301/.espressif/v6.0/esp-idf/components/**",
+        "/home/dave301/.espressif/v6.0/esp-idf/components/soc/esp32s3/**",
+        "${workspaceFolder}/main",
+        "${workspaceFolder}/software-architecture/inc",
+        "${workspaceFolder}/software-architecture/inc/Mcal/I2C",
+        "${workspaceFolder}/software-architecture/common",
+        "${workspaceFolder}/software-architecture/common/CUCEL/standard",
+        "${workspaceFolder}/software-architecture/common/CUCEL/compiler",
+        "${workspaceFolder}/software-architecture/common/CUCEL/platform",
+        "${workspaceFolder}/software-architecture/src/**",
+        "${workspaceFolder}/GConf"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "compileCommands": [
+        "${config:idf.buildPath}/compile_commands.json"
+      ],
+      "compilerPath": "/home/dave301/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc"
+    }
+  ],
+  "version": 4
+}

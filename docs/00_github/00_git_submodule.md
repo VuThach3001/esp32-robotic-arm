@@ -9,6 +9,7 @@
 ### Cue Column (Questions, Keywords, or Prompts)
 
 - How to clone with submodules?
+- How to add a new submodule?
 - What if I forgot to use `--recurse-submodules`?
 - How to update submodules after pulling?
 - How to check submodule status?
@@ -45,6 +46,33 @@ Run:
 
 ```bash
 git submodule update --init --recursive
+```
+
+**1.1 Adding a new submodule**
+
+Use this command from the parent repository root:
+
+```bash
+git submodule add <submodule-repo-url> [path]
+```
+
+Example (same style as your recent command):
+
+```bash
+git submodule add https://github.com/VuThach3001/software-architecture.git
+```
+
+After adding, Git automatically updates:
+
+- `.gitmodules`
+- the submodule directory entry (gitlink) in the parent repository
+
+Then commit both in the parent repository:
+
+```bash
+git add .gitmodules <submodule-path>
+git commit -m "Add submodule: <name>"
+git push
 ```
 
 **2. Updating after pulling new changes**
@@ -138,3 +166,5 @@ git commit -m "Update submodule to latest"
 ### Summary Section (Summary of Notes)
 
 Git submodules allow embedding external repositories within a parent repository. Always clone with `--recurse-submodules` or run `git submodule update --init --recursive` afterward. Use `git pull --recurse-submodules` or set `submodule.recurse true` for automatic updates. Submodules stay in detached HEAD state by default, pointing to specific commits. Use `git submodule status` to check current state and `git submodule foreach` to run batch commands. Remember to commit changes inside the submodule first, then update the submodule pointer in the parent repo.
+
+When adding a submodule, use `git submodule add ...` from the parent repository. Git creates or updates `.gitmodules` automatically, so you normally do not create that file manually.
