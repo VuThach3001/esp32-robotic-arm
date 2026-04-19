@@ -18,6 +18,8 @@
 /* Vendor IDs must be macros because they are used in #if conditions. */
 #define CPUVENDOR_SC_STM32 0U
 #define CPUVENDOR_SC_ESP32 1U
+#define WETH_NOT_SUPPORTED 0U
+#define WETH_SUPPORTED 1U
 
 /* Public enumerate/structure ----------------------------------------- */
 /* Public macros ------------------------------------------------------ */

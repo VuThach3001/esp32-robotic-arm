@@ -21,6 +21,11 @@
 #ifndef CPUVENDOR_SC
 #define CPUVENDOR_SC CPUVENDOR_SC_ESP32
 #endif
+
+/* Local system constant for Wireless Ethernet */
+#ifndef WETH_ENA
+#define WETH_ENA WETH_SUPPORTED
+#endif
 /* Public enumerate/structure ----------------------------------------- */
 /* Public macros ------------------------------------------------------ */
 /* Public variables --------------------------------------------------- */
