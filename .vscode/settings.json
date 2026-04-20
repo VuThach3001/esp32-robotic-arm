@@ -14,5 +14,13 @@
     "--query-driver=**",
     "--compile-commands-dir=/home/dave301/Desktop/workspace/i2c_oled/build"
   ],
-  "idf.flashType": "UART"
+  "idf.flashType": "UART",
+  "[markdown]": {
+        "editor.quickSuggestions": {
+            "other": "on",
+            "comments": "off",
+            "strings": "off"
+        },
+        "editor.snippetSuggestions": "top"
+    }
 }
